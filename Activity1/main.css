@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img{
+    width: 500px;
+    height: 500px;
+}
+
+body {
+    background-image: url('./../code.webp'); /* Path to your background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 0;
+    overflow-x: hidden;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0; 
+}
+
+.container{
+    width: 1200px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    display: flex;
+    padding: 20%;
+    padding-top: 1%;
+}
+
+h1{
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    font-style: italic;
+    font-family: Arial;
+}
+
+button{
+    color: white;
+    background-color: green;
+    border: 1px solid green;
+    font-size: 20px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    padding: 50px;
+    background-color: rgba(31, 16, 238, 0.863);
+    width: 100%; 
+    box-sizing: border-box; 
+}
+
+.header li {
+    text-align: center;
+}
+
+.header li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.header li a:hover{
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border: none;
+}

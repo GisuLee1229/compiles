@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('./../code.webp'); /* Path to your background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0; 
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: 5px dashed rgb(0, 0, 0);
+}
+
+.container {
+    background-color: rgb(131, 228, 87);
+    padding: 10%;
+    padding-top: 1%;
+    border: solid 5px rgb(0, 0, 0);
+    border-radius: 10px;
+    max-width: 1200px;
+    margin: 7% auto;
+    display: flex;
+}
+
+.classLeft {
+    margin-right: 10%;
+    border: solid 5px rgb(5, 45, 78);
+    border-radius: 10px;
+    width: 50%;
+    padding: 1rem;
+    margin-top: 150px;
+}
+
+.classRight {
+    width: 50%;
+    border-radius: 10px;
+    width: 50%;
+    padding: 1rem;
+    margin-top: 150px;
+}
+
+button{
+    background-color: rgb(24, 188, 230);
+    border: rgb(12, 165, 192);
+    color: black;
+    border-radius: 5px;
+    padding: 2%;
+    padding-left: 2%;
+    margin: 10% 1% 0 0%;
+}
+
+h1{
+    margin-top: 2%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+p{
+    margin-top: 3%;
+    padding-top: 3%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    padding: 50px;
+    background-color: rgba(31, 16, 238, 0.863);
+    width: 100%; 
+    box-sizing: border-box; 
+}
+
+.header li {
+    text-align: center;
+}
+
+.header li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.header li a:hover{
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border: none;
+}
