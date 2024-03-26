@@ -48,10 +48,6 @@ body {
     text-align: center;
 }
 
-.main-container {
-    padding-top: 100px; /* Adjusted padding for smaller screens */
-}
-
 @media only screen and (max-width: 768px) {
     .header {
         justify-content: center;
