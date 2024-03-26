@@ -1,6 +1,6 @@
 body {
     background-image: url('codes.jpg');
-    background-size: cover; /* Ensure the background image covers the entire viewport */
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     padding: 0;
@@ -15,7 +15,7 @@ body {
     display: flex;
     justify-content: flex-end;
     list-style: none;
-    padding: 50px; /* Decreased padding for smaller screens */
+    padding: 50px;
     background-color: rgba(31, 16, 238, 0.863);
     width: 100%; 
     box-sizing: border-box; 
@@ -24,7 +24,7 @@ body {
 .header ul {
     margin: 0;
     padding: 0;
-    margin-right: 10%; /* Adjusted margin for smaller screens */
+    margin-right: 10%;
 }
 
 .header li {
@@ -48,7 +48,6 @@ body {
     text-align: center;
 }
 
-
 @media only screen and (max-width: 768px) {
     .header {
         justify-content: center;
@@ -56,10 +55,14 @@ body {
     .header li {
         margin-left: 0;
     }
-    .main-container {
-        padding-top: 50px; /* Further adjusted padding for smaller screens */
-    }
     body {
-        font-size: 16px; /* Decreased font size for smaller screens */
+        font-size: 16px;
+    }
+    /* Centering text horizontally and vertically */
+    .text-center {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 100vh; /* Setting height to 100% of the viewport height */
     }
 }
