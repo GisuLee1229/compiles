@@ -19,7 +19,7 @@ body {
 
 .header {
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end; /* Adjust to align to the right */
     align-items: center; /* Align items vertically */
     list-style: none;
     padding: 50px;
@@ -53,4 +53,8 @@ body {
 
 .text-center {
     text-align: center;
+}
+
+.header ul {
+    margin-right: auto; /* Adjusts the spacing to align to the right */
 }
