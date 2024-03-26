@@ -15,7 +15,7 @@ body {
     display: flex;
     justify-content: flex-end;
     list-style: none;
-    padding: 20px;
+    padding: 50px;
     background-color: rgba(31, 16, 238, 0.863);
     width: 100%; 
     box-sizing: border-box; 
