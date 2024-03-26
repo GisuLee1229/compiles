@@ -50,6 +50,7 @@ body {
 
 .main-container {
     padding-top: 100px; /* Adjusted padding for smaller screens */
+    margin-bottom: 50px; /* Added margin from bottom */
 }
 
 @media only screen and (max-width: 768px) {
